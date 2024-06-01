@@ -1,38 +1,45 @@
 # Positron v3.2 Printed Parts
 Hello - all of these folders are what is required to build your Postiron.
 
-In each folder, you will find a readme, this will act as a general Key for the naming of the files, as well as a spot where we've added advisories for some parts. This is as simple as informing you if a part will not be seen from the exterior, if a part will be closely intact with a high temperature item such as a motor, or if a part is reccomended to be non-conductive for electrical isolation.
+In each folder, you will find a readme, this will act as a general Key for the naming of the files, as well as a spot where we've added advisories for some parts. This is as simple as informing you if a part will not be seen from the exterior, if a part will be closely intact with a high temperature item such as a motor, or if a part is recommended to be non-conductive for electrical isolation.
 
-Please note that the folders here are grouped by assembly, and not by reccomended order of assembly. Please be sure to follow the guides provided on our wiki.
+Please note that the folders here are grouped by assembly, and not by recommended order of assembly. Please be sure to follow the guides provided on our wiki.
 
 # Recommended Print Settings
 
- - We reccomend printing all parts in ABS or ASA, but yuo can print some parts in other colors.
- - Line Width; 0.4
- - Layer Height; 0.2
- - Infill; 40%
- - Infill Patterns; Honeycomb, Gyroid, Cubic, Grid.
- - Perimeters; 5
- - Top/Bottom; 6 Layers
- - No Supports - All pieces requiring supports already have supports included.
+ - We recommend printing all parts in ABS or ASA
+ - [We're copying Voron's homework;](https://docs.vorondesign.com/sourcing.html#print-settings)
+    - Layer height: 0.2mm
+    - Extrusion width: 0.4mm
+    - Infill percentage: 40%
+    - Infill type: grid, gyroid, honeycomb, triangle, or cubic
+    - Wall count: 4
+    - Solid top/bottom layers: 5
+    - Supports: NONE
 
-  
+ABS or ASA is the recommended filament for most parts, PLA and PETG can be used for many accent pieces, but please only do so at your own discretion.
 
-ABS or ASA is the recommended filament for most parts, PLA and PETG can be used for many accent pieces.
+# Example Renders
+Below are renders we generated. For reference between "Primary" and "Accent" colors;
+ - Primary Colors; Extruder, Panels, Main Hotend Body
+ - Accent Colors; Control Panel, Vents, End Caps.
+
+![Example Render 1](./Example_Render_1.png "Example Render 1")
+![Example Render 2](./Example_Render_2.png "Example Render 2")
+![Example Render 3](./Example_Render_3.png "Example Render 3")
 
 # FILE NAME KEY:
-Each file is named similar to the following;
-`Part Name - Quantity - Recommended Color - Minimum Material Type - Notes`
+`Part Name - Quantity - Recommended Color - Notes`
 
 ### Example 1;
-`Bed_Cable_Guide - 1x - Accent - PLA`  
+`Bed_Cable_Guide - 1x - Accent`  
 
-This is the `Bed_Cable_Guide`, you need to print One of them, recommended in an accent color, and at the minimum in PLA.
+This is the `Bed_Cable_Guide`, you need to print One of them, recommended in an accent color.
 
 ### Example 2;
-`Z_PCB_Spacer - 1x - Any - ABSorASA - Non-Conductive`
+`Z_PCB_Spacer - 1x - Any - Non-Conductive`
 
-This is the `Z_PCB_Spacer`, you need to print One of them, you can use any color, at the minimum in ABS or ASA, and must not be conductive.
+This is the `Z_PCB_Spacer`, you need to print One of them, you can use any color, and must not be conductive.
 
 # Questions or Comments
 Please feel free to join our [Discord](https://discord.gg/mGDkYZtyNY) to help with any feedback. We appreciate any and all feedback that can help us better improve our designs.
